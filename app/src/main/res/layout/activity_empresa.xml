@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.HomeActivity">
+    tools:context=".activities.EmpresaActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="226dp" />
+        android:text="Empresa"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="248dp" />
 </android.support.constraint.ConstraintLayout>

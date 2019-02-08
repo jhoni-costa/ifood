@@ -12,9 +12,7 @@ public class FirebaseConfig {
     private static FirebaseAuth firebaseAuth;
     private static StorageReference storageRef;
 
-    public static String getIdUser() {
-        return getFirebaseAuth().getCurrentUser().getUid();
-    }
+
 
     public static DatabaseReference getFirebaseRef() {
         if (firebaseRef == null) {
